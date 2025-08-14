@@ -50,13 +50,13 @@
 | room_silent_type        | str       | 禁言状态   |                             |
 | room_silent_level       | num       | 禁言等级   |                             |
 | room_silent_second      | num       | 禁言时间   | 单位是秒                        |
-| area_name               | str       | 分区名称   |                             |
-| pardants                | str       | 未知     | 未知                          |
-| area_pardants           | str       | 未知     | 未知                          |
+| area_name               | str       | 子分区名称   |                             |
+| pendants                | str       | 未知     | 未知                          |
+| area_pendants           | str       | 未知     | 未知                          |
 | hot_words               | list(str) | 热词     |                             |
 | hot_words_status        | num       | 热词状态   |                             |
 | verify                  | str       | 未知     | 未知                          |
-| new_pendants            | obj       | 头像框\大v |                             |
+| new_pendants            | obj       | 头像框\徽章 |                             |
 | up_session              | str       | 未知     |                             |
 | pk_status               | num       | pk状态   |                             |
 | pk_id                   | num       | pk id  |                             |
@@ -71,7 +71,7 @@
 |--------------|-----|-----|-------------------|
 | frame        | obj | 头像框 |                   |
 | mobile_frame | obj | 同上  | 手机版, 结构一致, 可能null |
-| badge        | obj | 大v  |                   |
+| badge        | obj | 徽章挂件  |                   |
 | mobile_badge | obj | 同上  | 手机版, 结构一致, 可能null |
 
 `frame`对象：
